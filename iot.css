@@ -1,0 +1,49 @@
+p{
+    background-image: linear-gradient(to left, purple, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(12, 12, 217);
+}
+
+.destaque {
+    color: rgb(5, 5, 172);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.titulo {
+    font-size: 2em;
+    color: tomato;
+    border-bottom: dashed black 3px;
+    background-image: linear-gradient(to top, blue,black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo:hover {
+    border: 1px solid, purple;
+    border-radius: 35px;
+}
+
+h1:hover {
+    font-size: 4em;
+    color:crimson
+}
+
+h2 {
+    text-transform: uppercase;/* colocar as letras em caixa alta*/ 
+}
+
+h4 {
+    text-align: center;
+}
+
+li {
+    font-style: 
+
+}
+
+footer {
+    background-color: aquamarine;
+}

@@ -1,0 +1,57 @@
+header {
+    /*texto fixado*/
+    background-color: rgb(23, 187, 187);
+    display: block;
+    position: fixed;
+    top: 0;      /*fixar o canto*/
+    left: 0;    /* fixar o lado */
+    width: 100%;
+    text-align: center;    /*centralizar*/
+    line-height: 15px;
+}
+
+li {
+list-style-type: none; /* tirar os pontinhos da listas*/
+display: inline-block;  /*separar a lista*/ 
+padding-left: 40px;
+
+}
+
+a :visited { /* aparcer a cor quando tu passa o mouse por cima*/
+   color: rgb(226, 201, 12);
+   background-color: rgb(243, 235, 12);
+   font-family:cursive;
+}
+
+a:link {
+    color: black;
+   background-color:rgb(101, 101, 245);
+   font-family:cursive;
+   border: solid 2px rgb(0, 255, 68);
+   border-radius: 6px;
+}
+
+a:hover {
+    color: rgba(104, 6, 6, 0.516);
+    background-color:rgb(184, 205, 21);
+    font-family:cursive;
+    border: solid 2px green;
+    border-radius: 6px ;
+    
+
+}
+
+article {
+    margin-top: 100px;
+    margin-bottom: 50px; 
+}
+
+footer {                   /* nome/pais onde o texto esta*/
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;       /* vh- ponto que a gente vai visualizar  a janela*/
+    background-color: rgb(134, 247, 209);
+    text-align: center;
+    padding: 10px;
+}
